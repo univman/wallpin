@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+
+$jumbotron-bg: #AD781F;
+$navbar-default-bg: #014421;
+$body-bg: #FAC05F;
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
